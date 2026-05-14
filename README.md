@@ -1,2 +1,0 @@
-# Programa-ARCA
-projeto integrado
