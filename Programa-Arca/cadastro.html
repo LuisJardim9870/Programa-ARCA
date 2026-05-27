@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+     <header class="topo"> <!-- Cabeçalho da página de cadastro -->
+       <nav> <!-- Navegação dentro do cabeçalho, contendo o título do programa ou organização -->
+        <h1>ARCA</h1> <!-- Título do cabeçalho, representando o nome do programa ou organização -->
+        </nav>
+     </header>
+
+     <main> <!-- Conteúdo principal da página de cadastro -->
+        <section class="conteudo"> <!-- Seção para organizar o conteúdo da página de cadastro -->
+            <form> <!-- Formulário de cadastro para novos usuários -->
+
+                <div class="caixa"> <!-- Container para os campos de entrada do formulário de cadastro -->
+                <h2>Cadastro</h2>    <!-- Título da seção de cadastro -->
+
+                <input type="text" placeholder="Nome Completo/Nome da empresa"> <!-- Campo de entrada para o nome completo do usuário ou nome da empresa -->
+                <input type="email" placeholder="Email"> <!-- Campo de entrada para o email do usuário -->
+                <input type="text" placeholder="CPF/CNPJ"> <!-- Campo de entrada para o CPF ou CNPJ do usuário -->
+                <input type="text" placeholder="Telefone"> <!-- Campo de entrada para o telefone do usuário -->
+                <input type="password" placeholder="Senha"> <!-- Campo de entrada para a senha do usuário -->
+                <input type="password" placeholder="Confirmar Senha"> <!-- Campo de entrada para confirmar a senha do usuário -->
+
+                <h2>Documentação</h2>
+
+                <label for="identidade">Carteira de Identidade (RG)</label> <!-- Rótulo para o campo de entrada da carteira de identidade (RG) -->
+                <input type="file" id="identidade" placeholder="Carteira de Identidade (RG)"> <!-- Campo de entrada para o upload da carteira de identidade (RG) do usuário -->
+                <label for="residencia">Comprovante de Residência</label> <!-- Rótulo para o campo de entrada do comprovante de residência -->
+                <input type="file" id="residencia" placeholder="Comprovante de Residência"> <!-- Campo de entrada para o upload do comprovante de residência do usuário -->
+                <label for="eleitor">Título de Eleitor</label> <!-- Rótulo para o campo de entrada do título de eleitor -->
+                <input type="file" id="eleitor" placeholder="Título de Eleitor">
+                <label for="reservista">Certificado de Reservista</label> <!-- Rótulo para o campo de entrada do certificado de reservista -->
+                <input type="file" id="reservista" placeholder="Certificado de Reservista"> <!-- Campo de entrada para o upload do certificado de reservista do usuário -->
+                <small class="descricao-campo">(Obrigatório para homens)</small> <!-- Pequena descrição indicando que o campo de certificado de reservista é obrigatório para homens -->
+                <br> <!-- Quebra de linha para separar os campos de entrada do formulário -->
+                <button type="submit">Cadastrar</button> <!-- Botão de envio do formulário de cadastro -->
+
+                </div>
+            </form>
+        </section>
+     </main>
+</body>
+</html>
